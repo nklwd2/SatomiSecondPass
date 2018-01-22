@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SatomiSecondPass.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{7F49B0B7-79E5-4FB6-8F42-32007073E4EB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SatomiSecondPass.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SatomiSecondPassEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{68B0833A-C39B-4C60-9850-7564921155EF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SatomiSecondPass">
+			<UniqueIdentifier>{EC72671D-5440-448B-A0F7-11421CE41AE4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SatomiSecondPass\SatomiSecondPass.Build.cs">
+			<Filter>Source\SatomiSecondPass</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SatomiSecondPass\SatomiSecondPass.cpp">
+			<Filter>Source\SatomiSecondPass</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SatomiSecondPass\SatomiSecondPass.h">
+			<Filter>Source\SatomiSecondPass</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SatomiSecondPass\SatomiSecondPassGameModeBase.cpp">
+			<Filter>Source\SatomiSecondPass</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SatomiSecondPass\SatomiSecondPassGameModeBase.h">
+			<Filter>Source\SatomiSecondPass</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
