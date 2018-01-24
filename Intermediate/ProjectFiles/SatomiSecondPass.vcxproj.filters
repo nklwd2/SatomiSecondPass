@@ -1,46 +1,294 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\SatomiSecondPass.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{7F49B0B7-79E5-4FB6-8F42-32007073E4EB}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\SatomiSecondPass.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\SatomiSecondPassEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{68B0833A-C39B-4C60-9850-7564921155EF}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\SatomiSecondPass">
-			<UniqueIdentifier>{EC72671D-5440-448B-A0F7-11421CE41AE4}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\SatomiSecondPass\SatomiSecondPass.Build.cs">
-			<Filter>Source\SatomiSecondPass</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\SatomiSecondPass\SatomiSecondPass.cpp">
-			<Filter>Source\SatomiSecondPass</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\SatomiSecondPass\SatomiSecondPass.h">
-			<Filter>Source\SatomiSecondPass</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\SatomiSecondPass\SatomiSecondPassGameModeBase.cpp">
-			<Filter>Source\SatomiSecondPass</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\SatomiSecondPass\SatomiSecondPassGameModeBase.h">
-			<Filter>Source\SatomiSecondPass</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\SatomiSecondPass.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7F49B0B7-79E5-4FB6-8F42-32007073E4EB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SatomiSecondPass.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SatomiSecondPassEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{68B0833A-C39B-4C60-9850-7564921155EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SatomiSecondPass">
+      <UniqueIdentifier>{EC72671D-5440-448B-A0F7-11421CE41AE4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SatomiSecondPass\SatomiSecondPass.Build.cs">
+      <Filter>Source\SatomiSecondPass</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SatomiSecondPass\SatomiSecondPass.cpp">
+      <Filter>Source\SatomiSecondPass</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SatomiSecondPass\SatomiSecondPass.h">
+      <Filter>Source\SatomiSecondPass</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SatomiSecondPass\SatomiSecondPassGameModeBase.cpp">
+      <Filter>Source\SatomiSecondPass</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SatomiSecondPass\SatomiSecondPassGameModeBase.h">
+      <Filter>Source\SatomiSecondPass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Public\AmmoClipSystemComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\AmmoSystemComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\BleedingComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\DamageCalculatorAndNotifier.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\DebugTextWidget.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\EventPublisherInterface.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\FiringComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\GameGoal.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\GameObjective.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\GOKillDesignatedPerson.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\HealthComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\HitscanFiringComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\InteractiveHandsComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\InventoryComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PickupCollectorComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PickupComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\ProjectileFiringComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSBodyTypes.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSCharacter.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSCharacterMovementComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSEquippableActor.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSEventAggregator.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSFPSPlayerController.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSGameInstance.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSGameMode.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSGameplayStatics.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSGameState.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSHandComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSLocalPlayer.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSNonVRCharacter.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSPlayerHand.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSPlayerState.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSVRCharacter.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSWeapon.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSWeaponActiveState.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSWeaponCockingState.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSWeaponFeedingState.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSWeaponFiringState.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\PSWeaponState.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\UseableActor.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Public\VRInventoryComponent.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Public">
+      <UniqueIdentifier>{0fa6871a-19d3-435a-b4d0-35a9edc8c92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private">
+      <UniqueIdentifier>{3f40ebe4-42d3-4082-91e3-34af31a8c719}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Public\EventPublisherInterface.cpp">
+      <Filter>Source\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\AmmoClipSystemComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\AmmoSystemComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\BleedingComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\DamageCalculatorAndNotifier.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\DebugTextWidget.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\FiringComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\GameGoal.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\GameObjective.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\GOKillDesignatedPerson.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\HealthComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\HitscanFiringComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\InteractiveHandsComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\InventoryComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PickupCollectorComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PickupComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\ProjectileFiringComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSCharacter.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSCharacterMovementComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSEquippableActor.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSFPSPlayerController.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSGameInstance.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSGameMode.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSGameplayStatics.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSGameState.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSHandComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSLocalPlayer.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSNonVRCharacter.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSPlayerHand.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSPlayerState.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSVRCharacter.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSWeapon.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSWeaponActiveState.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSWeaponCockingState.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSWeaponFeedingState.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\PSWeaponFiringState.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\UseableActor.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Private\VRInventoryComponent.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
