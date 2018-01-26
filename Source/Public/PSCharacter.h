@@ -3,7 +3,7 @@
 #pragma once
 
 #include "GameFramework/Character.h"
-#include "PSCharacter.generated.h"
+#include "Source/Public/PSCharacter.generated.h"
 
 class UHealthComponent;
 class APSEquippableActor;
