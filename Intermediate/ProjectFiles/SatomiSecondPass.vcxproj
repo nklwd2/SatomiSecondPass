@@ -559,6 +559,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\SatomiSecondPass-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClInclude Include="PSEquippableActor.h" />
+    <ClInclude Include="UsableActor.h" />
     <None Include="..\..\SatomiSecondPass.uproject" />
     <None Include="..\..\Source\SatomiSecondPass.Target.cs" />
     <None Include="..\..\Source\SatomiSecondPassEditor.Target.cs" />
